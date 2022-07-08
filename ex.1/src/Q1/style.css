@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(234, 234, 234);
+          
+}
+
+.items{
+    flex-direction: column;
+    width: 400px;
+    height: 720px;
+    
+ 
+}
+.form-item{
+   text-align: left;
+   margin-left: 350px;
+   margin-top: 200px; 
+}
+
+h3,p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: smaller;
+    color: rgb(132, 146, 146);
+}
+.placeholder{
+    width: 335px;
+    height: 30px;
+    border: .5px solid rgb(235, 235, 235);
+    margin-top: 5px;
+
+}
+button{
+    background-color: rgb(234, 126, 60);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    color: #fff;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+}
+button:hover span {
+    padding-right: 25px;
+}
+.checkbox{
+    accent-color: rgb(234, 126, 60);
+}
+
+a{
+    margin-left: 120px;
+    color:rgb(155, 155, 155);
+}
+.img-item{
+    background: url("./shelf1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+    
+}

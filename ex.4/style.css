@@ -1,0 +1,50 @@
+
+body{
+    background-color: rgb(197, 197, 197);
+}
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(22, 22, 99);
+    font-weight: bolder;
+    font-size: larger;
+    margin-left:50px;
+}
+.flex-contain{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.items{
+    flex-direction: column;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.fa-bottle-water,
+.fa-plate-wheat,
+.fa-blender,
+.fa-bowl-rice,
+.fa-apple-whole,
+.fa-bone,
+.fa-bacon,
+.fa-bottle-droplet,
+.fa-bottle-water,
+.fa-beer-mug-empty,
+.fa-bowl-food,
+.fa-bread-slice,
+.fa-bell-slash{
+    color: rgb(22, 22, 99);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 53px;
+}
+
+h5{
+    text-align: center;
+    color: rgb(22, 22, 99);
+}

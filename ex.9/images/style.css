@@ -1,0 +1,10 @@
+.container {
+    background: #f9f9f9;
+  }
+  .flex-column {
+    max-width: 260px;
+  }
+  img {
+    margin: 5px;
+  }
+ 
